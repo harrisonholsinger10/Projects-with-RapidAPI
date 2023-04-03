@@ -1,0 +1,35 @@
+body, #quote, #author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 10px;
+    font-family: "Courier New";
+    text-align: center;
+    font-size: 75px;
+}
+.jokeBox {
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    padding: 50px;
+    width: 80%;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+#setup {
+    font-family: "Courier New";
+    text-align: center;
+    font-size: 30px;
+}
+
+#punchline {
+    margin-top: 10px;
+    font-family: "Courier New";
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
